@@ -16,13 +16,13 @@
     border-radius: 25px;
     border-width: 8px;
 }
-
+ 
 .nav {
     list-style-type: none;
     display: inline-flex;
     margin: 2px;
     border-radius: 5px;
-    background-color: rgb(167, 198, 224) ;
+    background-color: rgb(192, 217, 238) ;
     color: rgb(3, 5, 7);
     padding: 8px;
     border-style: none;
@@ -35,8 +35,14 @@
 }
 
 .about{
-    display: inline-flexbox;
+    display: flex;
     flex-wrap: row wrap;
+}
+
+.aboutme{
+    border-bottom: solid 5px rgb(74, 132, 136);
+    border-right:  solid 5px rgb(74, 132, 136);
+    margin-right: 30%;
 }
 
 .taylor{
@@ -45,10 +51,13 @@
 }
 
 .intro{
-text-align: center;
-border-style: solid 5px;
-border: steelblue;
-shape-outside: circle(50%);
+    font-feature-settings: "frac";
+    font-variant: diagonal-fractions;
+    display: flex;
+    text-align: center;
+    border-style: solid 5px;
+    border: steelblue;
+    shape-outside: circle(50%);
 }
 
 .contact{
@@ -56,24 +65,25 @@ shape-outside: circle(50%);
 }
 
 .homephoto {
-    box-align: right;
+    border-radius: 20px 50px;
+    float: right;
+    margin: 10px;
 }
 
 .duty{
-    list-style-type: none;   
+    list-style-type: none;
+    display: inline-block;   
 }
 
 .job{
     display: flex;
-    flex-wrap: wrap;
-    align-content: stretch ;
 }
 
 .cert,.skill{
     list-style-type: none;
     display: inline-flex;
     margin: 2px;
-    border-radius: 5px;
+    border-radius: 1px;
     background-color: rgb(184, 192, 199) ;
     color: rgb(28, 58, 82);
     padding: 8px;
@@ -90,6 +100,13 @@ shape-outside: circle(50%);
     background-size: cover;
     background-repeat: no-repeat;
     flex-wrap: row wrap;
+ }
+
+
+ .project{
+    border-bottom: solid 5px rgb(74, 132, 136);
+    margin-right: 30%;
+    padding: 5px;
  }
 
  .welcome{
