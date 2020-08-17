@@ -50,6 +50,12 @@
     font-size: xx-large;
 }
 
+.line{
+    display: flex;
+    
+    font-size: x-large;
+}
+
 .intro{
     font-feature-settings: "frac";
     font-variant: diagonal-fractions;
@@ -76,7 +82,7 @@
 }
 
 .job{
-    display: flex;
+    display: 
 }
 
 .cert,.skill{
