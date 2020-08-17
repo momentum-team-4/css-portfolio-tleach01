@@ -52,7 +52,6 @@
 
 .line{
     display: flex;
-    
     font-size: x-large;
 }
 
@@ -81,8 +80,10 @@
     display: inline-block;   
 }
 
-.job{
-    display: 
+.exp{
+    display: inline-flex;
+    justify-content: space-between;
+
 }
 
 .cert,.skill{
